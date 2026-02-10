@@ -88,13 +88,15 @@
 <section id="contact" class="section dark">
   <h2>Request a Quote</h2>
 
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="date" required>
-    <input type="number" placeholder="Guests" required>
-    <input type="tel" placeholder="Phone Number" required>
-    <button type="submit">Submit Inquiry</button>
-  </form>
+ <form id="enquiryForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="date" id="date" required>
+  <input type="number" id="guests" placeholder="Guests" required>
+  <input type="tel" id="phone" placeholder="Phone" required>
+
+  <button type="submit">Check Availability</button>
+</form>
+
 </section>
 
 <footer>
@@ -104,3 +106,4 @@ Pearl Banquet • Spine Rd, Moshi Pune • 09028326111
 <script src="script.js"></script>
 </body>
 </html>
+
